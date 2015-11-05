@@ -10,8 +10,11 @@ TD Critic is a gem that specializes in judging your coding style.
 Add this to your application's Gemfile:
 
 ```ruby
+gem 'rubocop', github: 'bbatsov/rubocop'
 gem 'td_critic'
 ```
+
+*Disclamer: the `inherit_gem` feature is not released yet, so if you want to use it you will have to use the `master` of `rubocop` for now*
 
 ## Usage
 
