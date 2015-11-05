@@ -25,7 +25,7 @@ inherit_gem:
   td_critic: rubocop.yml
 ```
 
-You can use the `rubocop` rake task to run rubocop on only the **recently changed files**
+You can use the `rubocop` rake task to run rubocop on only the **recently changed files** (by [Yury Lebedev](https://github.com/lebedev-yury))
 
 ```
 bundle exec rake rubocop
