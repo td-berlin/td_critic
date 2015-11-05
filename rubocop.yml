@@ -1,0 +1,23 @@
+AllCops:
+  RunRailsCops: true
+  Exclude:
+    - 'bin/**/*'
+    - '**/Rakefile'
+    - 'Gemfile.lock'
+    - 'db/**/*'
+    - 'assets/node_modules/**/*'
+    - 'vendor/**/*'
+
+Metrics/LineLength:
+    Max: 99
+
+Style/Documentation:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Style/Encoding
+  Enabled: true
+
+require: rubocop-rspec
