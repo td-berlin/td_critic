@@ -1,12 +1,13 @@
 # TD Critic
 
 <img src="https://cloud.githubusercontent.com/assets/300693/10975524/18686db6-83f0-11e5-82e7-34b1d64f6870.jpeg" alt="Your ruby SUX!" title="SHAME" align="right" border="1" width="150"/>
-<br/><br/><br/>
 
 > Critic <br/>
 > -- One who forms and expresses judgments of the merits, faults, value, or truth of a matter.
 
 TD Critic is a gem that specializes in judging your coding style.
+
+<br/><br/><br/>
 
 ## Installation
 
