@@ -17,7 +17,4 @@ Style/Documentation:
 Lint/UnusedBlockArgument:
   Enabled: false
 
-Style/Encoding:
-  Enabled: true
-
 require: rubocop-rspec
