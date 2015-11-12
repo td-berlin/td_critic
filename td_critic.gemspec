@@ -9,8 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Dash Boys']
   spec.email         = ['developer@td-berlin.com']
 
-  spec.summary       = 'TD Critic is a gem that specializes in judging your coding style.'
-  spec.description   = 'TD Critic use rubocop to check the Ruby style guide.'
+  spec.summary       = 'TD Critic is a gem that specializes in judging' \
+    ' your coding style.'
+  spec.description   = 'TD Critic uses rubocop to check your code based' \
+    ' on the Ruby Style Guide.'
   spec.homepage      = 'https://www.github.com/td-berlin/td_critic'
   spec.license       = 'Proprietary'
 
