@@ -9,9 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Dash Boys']
   spec.email         = ['developer@td-berlin.com']
 
-  spec.summary       = 'TD Critic is a gem that specializes in judging your coding style'
-  spec.description   = spec.summary
+  spec.summary       = 'TD Critic is a gem that specializes in judging your coding style.'
+  spec.description   = 'TD Critic use rubocop to check the Ruby style guide.'
   spec.homepage      = 'https://www.github.com/td-berlin/td_critic'
+  spec.license       = 'Proprietary'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -25,8 +26,8 @@ Gem::Specification.new do |spec|
   spec.executables   = []
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop', '~> 0.34.2'
-  spec.add_dependency 'rubocop-rspec', '~> 1.3.1'
+  spec.add_dependency 'rubocop', '~> 0.35'
+  spec.add_dependency 'rubocop-rspec', '~> 1.3'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
