@@ -1,5 +1,9 @@
 # TD Critic
 
+[![Gem Version](https://badge.fury.io/rb/td_critic.svg)](https://rubygems.org/gems/td_critic)
+[![Build Status](https://secure.travis-ci.org/td-berlin/td_critic.svg?branch=master)](https://travis-ci.org/td-berlin/td_critic)
+[![License](https://img.shields.io/github/license/td-berlin/td_critic.svg)](http://opensource.org/licenses/MIT)
+
 <img src="https://cloud.githubusercontent.com/assets/300693/10975524/18686db6-83f0-11e5-82e7-34b1d64f6870.jpeg" alt="Your ruby SUX!" title="SHAME" align="right" border="1" width="150"/>
 
 > Critic <br/>
