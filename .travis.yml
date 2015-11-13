@@ -1,0 +1,14 @@
+sudo: false
+notifications:
+  email:
+    on_success: never
+language: ruby
+cache:
+  directories:
+    - vendor/bundle
+before_install:
+  - gem update --remote bundler
+script:
+  - bundle exec rubocop --display-cop-names
+gemfile:
+  - Gemfile
