@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'TD Critic uses rubocop to check your code based' \
     ' on the Ruby Style Guide.'
   spec.homepage      = 'https://www.github.com/td-berlin/td_critic'
-  spec.license       = 'Proprietary'
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = []
