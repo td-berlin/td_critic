@@ -4,8 +4,9 @@ AllCops:
     - 'bin/**/*'
     - '**/Rakefile'
     - 'Gemfile.lock'
-    - 'db/**/*'
+    - 'db/schema.rb'
     - 'assets/node_modules/**/*'
+    - "**/db/schema.rb"
     - 'vendor/**/*'
 
 Metrics/LineLength:
