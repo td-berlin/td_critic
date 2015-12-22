@@ -9,9 +9,6 @@ AllCops:
     - "**/db/schema.rb"
     - 'vendor/**/*'
 
-Metrics/LineLength:
-    Max: 99
-
 Style/Documentation:
   Enabled: false
 
