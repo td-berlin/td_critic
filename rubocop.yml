@@ -1,5 +1,4 @@
 AllCops:
-  RunRailsCops: true
   Exclude:
     - 'bin/**/*'
     - '**/Rakefile'
@@ -8,6 +7,9 @@ AllCops:
     - 'assets/node_modules/**/*'
     - "**/db/schema.rb"
     - 'vendor/**/*'
+
+Rails:
+  Enabled: true
 
 Style/Documentation:
   Enabled: false
