@@ -17,4 +17,5 @@ Style/Documentation:
 Lint/UnusedBlockArgument:
   Enabled: false
 
-require: rubocop-rspec
+# See https://github.com/nevir/rubocop-rspec/pull/60
+# require: rubocop-rspec
