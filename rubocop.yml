@@ -17,4 +17,8 @@ Style/Documentation:
 Lint/UnusedBlockArgument:
   Enabled: false
 
+Metrics/LineLength:
+  Exclude:
+    - '**/*.gemspec'
+
 require: rubocop-rspec
