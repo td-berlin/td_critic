@@ -18,5 +18,5 @@ RuboCop::RakeTask.new(:rubocop) do |task|
                     changed_files
                   end
 
-  task.fail_on_error = false
+  task.fail_on_error = true
 end
