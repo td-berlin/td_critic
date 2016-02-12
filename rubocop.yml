@@ -8,9 +8,6 @@ AllCops:
     - "**/db/schema.rb"
     - 'vendor/**/*'
 
-Rails:
-  Enabled: true
-
 Style/Documentation:
   Enabled: false
 
