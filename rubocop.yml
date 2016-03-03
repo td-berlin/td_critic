@@ -4,7 +4,7 @@ AllCops:
     - '**/Rakefile'
     - 'Gemfile.lock'
     - 'db/schema.rb'
-    - 'assets/node_modules/**/*'
+    - 'node_modules/**/*'
     - "**/db/schema.rb"
     - 'vendor/**/*'
 
