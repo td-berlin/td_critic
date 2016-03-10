@@ -1,3 +1,11 @@
+v0.3.0 / 2016-03-10
+==================
+
+  * Skip vendor node modules in any directories
+  * Update `rubocop-rspec` to `1.4` and `rubocop` to `0.37`
+  * Ignore `rubocop 0.38`, it breaks `require` in `rubocop.yml`
+  * Remove Rails cop; let enable per project
+  * Add fail_on_error argument to rake task
 
 v0.2.0 / 2016-01-15
 ==================
