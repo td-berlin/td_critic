@@ -14,4 +14,7 @@ Style/Documentation:
 Lint/UnusedBlockArgument:
   Enabled: false
 
+LineLength:
+  Max: 100
+
 require: rubocop-rspec
