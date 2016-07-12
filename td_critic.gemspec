@@ -9,10 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Dash Boys']
   spec.email         = ['developer@td-berlin.com']
 
-  spec.summary       = 'TD Critic is a gem that specializes in judging' \
-    ' your coding style.'
-  spec.description   = 'TD Critic uses rubocop to check your code based' \
-    ' on the Ruby Style Guide.'
+  spec.summary       = 'TD Critic is a gem that specializes in judging ' \
+                       'your coding style.'
+  spec.description   = 'TD Critic uses rubocop to check your code based ' \
+                       'on the Ruby Style Guide.'
   spec.homepage      = 'https://www.github.com/td-berlin/td_critic'
   spec.license       = 'MIT'
 
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
   spec.executables   = []
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rubocop', '0.37.2'
-  spec.add_dependency 'rubocop-rspec', '1.4.0'
+  spec.add_dependency 'rubocop', '~> 0.41.2'
+  spec.add_dependency 'rubocop-rspec', '~> 1.5.0'
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
