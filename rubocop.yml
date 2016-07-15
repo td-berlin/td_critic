@@ -14,4 +14,7 @@ Style/Documentation:
 Lint/UnusedBlockArgument:
   Enabled: false
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 require: rubocop-rspec

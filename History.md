@@ -1,3 +1,9 @@
+Unreleased
+===================
+
+  * Revert lock on `rubocop` and `rubocop-rspec`, bugs preventing us from using
+    them were fixed
+
 v0.4.0 / 2016-03-30
 ===================
 
