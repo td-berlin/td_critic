@@ -2,6 +2,7 @@ v0.6.0 / 2017-01-06
 ===================
 
   * Update `rubocop-rspec` to `1.9` and `rubocop` to `0.46`
+  * Allow to specify base branch
 
 v0.5.0 / 2016-07-15
 ===================

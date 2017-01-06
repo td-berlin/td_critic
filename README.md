@@ -35,3 +35,9 @@ You can use the `rubocop` rake task to run rubocop on only the **recently change
 ```
 bundle exec rake rubocop
 ```
+
+You can specify base branch on which basis files differences will be checked (by [Wojtek Widenka](https://github.com/wojw5)). Default branch is `master`.
+
+```
+bundle exec rake rubocop[branch-name]
+```
