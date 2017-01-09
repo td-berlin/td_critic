@@ -15,11 +15,9 @@ RuboCop::RakeTask.new(:rubocop, [:base_branch]) do |task, args|
   changed_files -= %w(Gemfile Gemfile.lock)
   changed_files.select! { |f| f.ends_with? '.rb' }
 
-  task.patterns = if changed_files.none?
-                    %w(*.!)
-                  else
-                    changed_files
-                  end
+  exit 0 if changed_files.none?
+
+  task.patterns = changed_files
 
   task.fail_on_error = true
 end
