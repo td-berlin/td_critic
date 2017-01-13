@@ -19,5 +19,7 @@ RuboCop::RakeTask.new(:rubocop, [:base_branch]) do |task, args|
 
   task.patterns = changed_files
 
+  task.options = ['--force-exclusion']
+
   task.fail_on_error = true
 end
