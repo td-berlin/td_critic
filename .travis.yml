@@ -3,6 +3,8 @@ notifications:
   email:
     on_success: never
 language: ruby
+rvm:
+  - 2.4.1
 cache:
   directories:
     - vendor/bundle
