@@ -9,11 +9,11 @@ RuboCop::RakeTask.new(:rubocop) do |task|
                     `git diff --name-only master..#{branch}`.split($RS)
                   end
 
-  changed_files -= %w(Gemfile Gemfile.lock)
+  changed_files -= ['Gemfile', 'Gemfile.lock']
   changed_files.select! { |f| f.ends_with? '.rb' }
 
   task.patterns = if changed_files.none?
-                    %w(*.!)
+                    ['*.!']
                   else
                     changed_files
                   end
