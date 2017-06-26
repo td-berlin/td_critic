@@ -1,3 +1,8 @@
+v0.7.0 / 2017-06-26
+===================
+
+  * Set preferred delimeters for percent literals to `()`
+
 v0.6.0 / 2017-06-20
 ===================
 
