@@ -17,4 +17,12 @@ Lint/UnusedBlockArgument:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
+Style/PercentLiteralDelimeters:
+  PreferredDelimiters:
+    default: '()'
+    '%i': '()'
+    '%I': '()'
+    '%w': '()'
+    '%W': '()'
+
 require: rubocop-rspec
