@@ -21,6 +21,15 @@ Add this to your application's Gemfile:
 gem 'td_critic'
 ```
 
+If you want to make sure that your project's build won't be broken accidentally by `rubocop` update, lock `rubocop` to certain version:
+
+```ruby
+gem 'rubocop', '0.58.2'
+gem 'rubocop-rspec', '1.28.0'
+```
+
+That is important especially for GEMs, where `Gemfile.lock` isn't committed to the repository.
+
 ## Usage
 
 Add the following line to your rubocop config
