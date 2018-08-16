@@ -1,4 +1,4 @@
-v0.7.0 / 2018-08-15
+v0.7.0 / 2018-08-16
 ===================
 
   * Allow projects to select preferred version of rubocop
